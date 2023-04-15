@@ -8,7 +8,7 @@
   width: 150px;
   height: 40px;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 100px !important;
 }
 .header-list-items {
   list-style-type: none;
