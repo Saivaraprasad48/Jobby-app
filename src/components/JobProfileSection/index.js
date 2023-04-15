@@ -107,12 +107,6 @@ class JobProfileSection extends Component {
     this.setState({searchInput: event.target.value})
   }
 
-  onKeyDown = event => {
-    if (event.key === 'Enter') {
-      this.getJobDetails()
-    }
-  }
-
   changeSalaryRange = salary => {
     this.setState({salaryRange: salary}, this.getJobDetails)
   }
@@ -162,7 +156,6 @@ class JobProfileSection extends Component {
             placeholder="Search"
             value={searchInput}
             onChange={this.changeSearchInput}
-            onKeyDown={this.onEnterKey}
           />
           <button
             type="button"
