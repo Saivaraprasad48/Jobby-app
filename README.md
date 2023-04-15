@@ -34,7 +34,7 @@
 * CSS - Media queries 
 
 ## Checkout 
-URL [Jobby App](https://sai-job-app.netlify.app/)
+# URL [Jobby App](https://sai-job-app.netlify.app/)
 
 ## Credentials
 UserName : rahul
