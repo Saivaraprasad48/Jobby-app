@@ -131,7 +131,6 @@ class JobProfileSection extends Component {
             placeholder="Search"
             value={searchInput}
             onChange={this.changeSearchInput}
-            onKeyDown={this.onEnterKey}
           />
           <button
             type="button"
