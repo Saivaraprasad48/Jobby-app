@@ -14,8 +14,10 @@
   border-radius: 15px;
 }
 .website-logo {
-  width: 150px;
+  width: 217px;
+  height:80px;
   margin-bottom: 25px;
+  margin-left:0px !important;
 }
 .form-container {
   display: flex;
